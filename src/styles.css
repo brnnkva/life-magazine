@@ -49,9 +49,10 @@ body{
 }
 
 .top-right a {
+    display: inline-flex;
+    padding-top: 15px;
     font-weight: 600;
     color: #ffff;
-    display: block;
     text-transform: uppercase;
     text-decoration: none;
 }
