@@ -1,5 +1,28 @@
+body{
+    margin: 0;
+    padding: 0; 
+    border: 0;
+    display: block;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+}
+
+.header .headline-img {
+    height: auto;
+    max-width: 100%
+}
 
 .headline h1 {
+    color: #ffff;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 64px;
     font-weight: bold;
