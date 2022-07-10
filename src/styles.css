@@ -11,6 +11,11 @@ body{
     max-width: 100%;
 }
 
+.site-logo img {
+    height: 60px;
+    width: auto;
+}
+
 .header {
     background-color: black;
     text-align: center;
@@ -27,6 +32,7 @@ body{
     font-size: 64px;
     font-weight: bold;
     line-height: 77px;
+    margin: 12px 10px 16px ;
 }
 
 .headline .red-btn {
