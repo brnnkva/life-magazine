@@ -5,11 +5,16 @@ body{
     display: block;
 }
 
+
 .container {
     display: block;
     margin: 0;
     padding: 0;
     max-width: 100%;
+}
+
+.navigation {
+    padding-top: 4%;
 }
 
 .site-logo img {
@@ -18,25 +23,33 @@ body{
 }
 
 .header {
-    background-color: black;
+    position: relative;
     text-align: center;
+    background-image: url("https://static.life.com/wp-content/uploads/migrated/2016/04/160405-queen-elizabeth-ii-birthday-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.header .headline-img {
-    height: auto;
-    max-width: 100%;
+.headline-text {
+  margin-top: 25%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 12px 10% 16px ;
+
 }
 
-.headline h1 {
+.headline-text h1 {
     color: #ffff;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 64px;
     font-weight: bold;
     line-height: 77px;
-    margin: 12px 10px 16px ;
 }
 
-.headline .red-btn {
+.headline-text .red-btn {
     background: #e90000;
     border: 1px solid transparent;
     color: #ffff;
