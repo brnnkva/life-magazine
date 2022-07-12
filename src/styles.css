@@ -14,7 +14,7 @@ body{
 }
 
 .navigation {
-    padding-top: 4%;
+    padding-top: 3%;
 }
 
 .site-logo img {
@@ -62,8 +62,9 @@ body{
 }
 
 .top-right a {
+    padding-left: 70%;
     display: inline-flex;
-    padding-top: 15px;
+    padding-top: 5px;
     font-weight: 600;
     color: #ffff;
     text-transform: uppercase;
