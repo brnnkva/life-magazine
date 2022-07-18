@@ -18,7 +18,7 @@ body{
 }
 
 .menu a {
-  padding-right: 70%;
+  padding-right: 50%;
   display: inline-flex;
   padding-top: 5px;
   font-weight: 600;
@@ -79,7 +79,7 @@ body{
 }
 
 .top-right a {
-    padding-left: 70%;
+    padding-left: 50%;
     display: inline-flex;
     padding-top: 5px;
     font-weight: 600;
